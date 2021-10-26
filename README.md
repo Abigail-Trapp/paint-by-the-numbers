@@ -1,1 +1,2 @@
 # paint-by-the-numbers
+ a single reusable function that takes a two-dimensional array as a parameter, loops through the content of the array, and for each number inserts an HTML element onto the page to show the appropriate color as a square block to make up a picture.**

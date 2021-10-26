@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Add your CSS here */
+  body {
+    background-color: lightblue;
+  }
+  
+  .row{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .block {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    
+  }
+  
+  .block0 {background-color: transparent}
+  .block1 {background-color:#ffffff}
+  .block2 {background-color:#ffc6b5}
+  .block3 {background-color:#ff945a}
+  .block4 {background-color:#ff3118}
+  .block5 {background-color:#d64a00 }
+  .block6 {background-color:#c66300}
+  .block7 {background-color:#188410}
+  .block8 {background-color:#000000}
+  
+  .row:nth-child(9),.row:nth-child(10),.row:nth-child(11),
+  .row:nth-child(12),.row:nth-child(13),.row:nth-child(14),
+  .row:nth-child(15),.row:nth-child(16),.row:nth-child(17),
+  .row:nth-child(18),.row:nth-child(19),.row:nth-child(20),
+  .row:nth-child(21),.row:nth-child(22),.row:nth-child(23),
+  .row:nth-child(24) {
+    justify-content: flex-start;
+  }
+  
+  .row:nth-child(25),.row:nth-child(26),.row:nth-child(27),
+  .row:nth-child(28),.row:nth-child(29),.row:nth-child(30), 
+  .row:nth-child(31),.row:nth-child(32),.row:nth-child(33),
+  .row:nth-child(34),.row:nth-child(35),.row:nth-child(36),
+  .row:nth-child(37), .row:nth-child(38),.row:nth-child(39),
+  .row:nth-child(40) {
+    justify-content: flex-end;
+  }
+  .row:nth-child(41),.row:nth-child(42),.row:nth-child(43),
+  .row:nth-child(44),.row:nth-child(45),.row:nth-child(46),
+  .row:nth-child(47),.row:nth-child(48),.row:nth-child(49),
+  .row:nth-child(50),.row:nth-child(51),.row:nth-child(52),
+  .row:nth-child(53),.row:nth-child(54),.row:nth-child(55),
+  .row:nth-child(56),.row:nth-child(57),.row:nth-child(58),
+  .row:nth-child(59),.row:nth-child(60),.row:nth-child(61),
+  .row:nth-child(62), .row:nth-child(63){
+    justify-content: flex-start;
+  }
+  
